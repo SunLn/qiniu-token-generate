@@ -1,2 +1,12 @@
 # qiniu-token-generate
-一个在 Web 前端生成 七牛 Token 的开源项目
+
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.11.1.
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
