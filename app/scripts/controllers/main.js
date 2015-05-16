@@ -8,12 +8,7 @@
  * Controller of the qiniuTokenGenerateApp
  */
 angular.module('qiniuTokenGenerateApp')
-    .controller('MainCtrl', function($scope) {
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
-        $scope.ak = '';
-        $scope.sk = '';
-    });
+    .controller('MainCtrl', ['$scope', 'utils', function($scope, utils) {
+        $scope.AK = '';
+        $scope.SK = '';
+    }]);
